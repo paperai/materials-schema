@@ -1,0 +1,42 @@
+[
+  {
+    "id": "d626c419-7dc8-4126-af82-5663e422ab4e",
+    "name": "schema2",
+    "properties": [
+      {
+        "id": "a9f720d0-942d-4c20-822c-d2ca9d94fa42",
+        "name": "テストプロパティ",
+        "type": "Number",
+        "color": "#ff8a80",
+        "sort": 1
+      },
+      {
+        "id": "3951dd74-7022-4e51-b4f5-9c20933d2580",
+        "name": "テストプロパティ2",
+        "type": "String",
+        "color": "#ff8a80",
+        "sort": 2
+      }
+    ]
+  },
+  {
+    "id": "0eeaaf7c-7735-4bf0-abe8-165d8bed0582",
+    "name": "schema1",
+    "properties": [
+      {
+        "id": "09509a80-d4e2-4dc4-ac4b-7b27fd9c1626",
+        "name": "property1",
+        "type": "",
+        "color": "#ff8a80",
+        "sort": 1
+      },
+      {
+        "id": "f45a9941-256e-45be-b13f-65eb2224be89",
+        "name": "テキスト",
+        "type": "",
+        "color": "#ff8a80",
+        "sort": 2
+      }
+    ]
+  }
+]
