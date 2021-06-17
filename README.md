@@ -1,1 +1,1 @@
-# materials-schema
+#material-schema
