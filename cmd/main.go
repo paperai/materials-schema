@@ -75,11 +75,7 @@ func writeToREADME(htmlStrs []string) error {
 	}
 	defer file.Close()
 
-	if _, err := file.WriteString("#material-schema\n"); err != nil {
-		return err
-	}
-
-	if _, err := file.WriteString(strings.Join(htmlStrs, "<br>")); err != nil {
+	if _, err := file.WriteString(strings.Join(htmlStrs, "<br>\n")); err != nil {
 		return err
 	}
 

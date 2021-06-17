@@ -1,4 +1,3 @@
-#material-schema
 <h1>schema2</h1>
 <table>
   <tr>
