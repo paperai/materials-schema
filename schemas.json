@@ -38,6 +38,25 @@
         "sort": 2
       }
     ]
+  },
+  {
+    "id": "0eeaaf7c-7735-4bf0-abe8-165d8bed0582",
+    "name": "schema1",
+    "properties": [
+      {
+        "id": "09509a80-d4e2-4dc4-ac4b-7b27fd9c1626",
+        "name": "property1",
+        "type": "",
+        "color": "#ff8a80",
+        "sort": 1
+      },
+      {
+        "id": "f45a9941-256e-45be-b13f-65eb2224be89",
+        "name": "テキスト",
+        "type": "",
+        "color": "#ff8a80",
+        "sort": 2
+      }
+    ]
   }
 ]
-
