@@ -13,7 +13,7 @@ import (
 )
 
 const (
-	schemaFileName = "schema.md"
+	schemaFileName = "./docs/index.md"
 )
 
 func main() {
