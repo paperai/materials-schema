@@ -5,15 +5,11 @@
     <th>Property Type</th>
     <th>Property Color</th>
   </tr>
-  {{
-    range.Properties
-  }}
+  {{ range.Properties }}
   <tr>
     <td>{{ .Name }}</td>
     <td>{{ .Type }}</td>
     <td>{{ .Color }}</td>
   </tr>
-  {{
-    end
-  }}
+  {{ end }}
 </table>

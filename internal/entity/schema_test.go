@@ -2,6 +2,7 @@ package entity_test
 
 import (
 	"io"
+	"io/ioutil"
 	"os"
 	"strings"
 	"testing"
@@ -17,7 +18,7 @@ func Test_HTML(t *testing.T) {
 		return
 	}
 	defer f.Close()
-	j, err := io.ReadAll(f)
+	j, err := ioutil.ReadAll(f)
 	if err != nil {
 		t.Errorf("fail to read json: %v", err)
 		return

@@ -2,7 +2,7 @@ package conv_test
 
 import (
 	"encoding/json"
-	"io"
+	"io/ioutil"
 	"os"
 	"testing"
 
@@ -27,7 +27,7 @@ func Test_JSONToStruct(t *testing.T) {
 	}
 	defer f.Close()
 
-	j, err := io.ReadAll(f)
+	j, err := ioutil.ReadAll(f)
 	if err != nil {
 		t.Errorf("fail to read json: %v", err)
 		return
@@ -46,7 +46,7 @@ func Test_JSONToStruct(t *testing.T) {
 	}
 	defer f2.Close()
 
-	j2, err := io.ReadAll(f2)
+	j2, err := ioutil.ReadAll(f2)
 	if err != nil {
 		t.Errorf("fail to read json: %v", err)
 		return
