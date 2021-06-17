@@ -19,7 +19,8 @@
   </tr>
   
 </table>
-<br><h1>schema1</h1>
+<br>
+<h1>schema1</h1>
 <table>
   <tr>
     <th>Property</th>
@@ -40,7 +41,8 @@
   </tr>
   
 </table>
-<br><h1>schema1</h1>
+<br>
+<h1>schema1</h1>
 <table>
   <tr>
     <th>Property</th>
