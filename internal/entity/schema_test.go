@@ -76,6 +76,14 @@ func Test_HTML(t *testing.T) {
 		t.Errorf("%s word didn't contain", result)
 		return
 	}
+	if result := schema.Synonyms[0]; !strings.Contains(htmlStr, result) {
+		t.Errorf("%s word didn't contain", result)
+		return
+	}
+	if result := schema.SchemaName; !strings.Contains(htmlStr, result) {
+		t.Errorf("%s word didn't contain", result)
+		return
+	}
 	if result := "存在しない適当なワード"; strings.Contains(htmlStr, result) {
 		t.Errorf("%s word contain", result)
 		return

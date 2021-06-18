@@ -1,12 +1,16 @@
 <h1>{{ .Schema }}</h1>
 <table>
   <tr>
+    <th>Schema</th>
+    <th>Synonyms</th>
     <th>Property</th>
     <th>Property Type</th>
     <th>Property Color</th>
   </tr>
   {{ range.Properties }}
   <tr>
+    <td>{{ .SchemaName }}</td>
+    <td>{{ .Synonyms }}</td>
     <td>{{ .Name }}</td>
     <td>{{ .Type }}</td>
     <td>{{ .Color }}</td>

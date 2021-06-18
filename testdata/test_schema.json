@@ -2,6 +2,8 @@
   {
     "id": "d626c419-7dc8-4126-af82-5663e422ab4e",
     "name": "schema2",
+    "synonyms": ["synonyms1", "synonyms2"],
+    "schema": "schema name2",
     "properties": [
       {
         "id": "a9f720d0-942d-4c20-822c-d2ca9d94fa42",
@@ -22,6 +24,8 @@
   {
     "id": "0eeaaf7c-7735-4bf0-abe8-165d8bed0582",
     "name": "schema1",
+    "synonyms": ["synonyms3", "synonyms2"],
+    "schema": "schema name1",
     "properties": [
       {
         "id": "09509a80-d4e2-4dc4-ac4b-7b27fd9c1626",
