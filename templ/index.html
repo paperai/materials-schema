@@ -1,19 +1,15 @@
-<h1>{{ .Schema }}</h1>
+<h1>{{ .Schema.SchemaName }}</h1>
 <table>
   <tr>
     <th>ID</th>
     <th>Name</th>
     <th>PropertyIDs</th>
     <th>Synonyms</th>
-    <th>Schema</th>
   </tr>
-  {{ range.Schemas }}
   <tr>
-    <td>{{ .ID }}</td>
-    <td>{{ .Name }}</td>
-    <td>{{ .PropertyIDs }}</td>
-    <td>{{ .Synonyms }}</td>
-    <td>{{ .Schema }}</td>
+    <td>{{ .Schema.ID }}</td>
+    <td>{{ .Schema.Name }}</td>
+    <td>{{ .Schema.Properties }}</td>
+    <td>{{ .Schema.Synonyms }}</td>
   </tr>
-  {{ end }}
 </table>

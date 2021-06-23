@@ -3,6 +3,7 @@ package entity
 import (
 	"bytes"
 	"io"
+	"strings"
 	"text/template"
 )
 
@@ -25,14 +26,27 @@ type Property struct {
 }
 */
 
+type outputSchema struct {
+	ID         string
+	Name       string
+	Synonyms   string
+	Properties string
+	SchemaName string
+}
+
 func (s *Schema) HTML(templ *template.Template) (io.Reader, error) {
 	var buf bytes.Buffer
+
 	err := templ.Execute(&buf, struct {
-		Schema  string
-		Schemas []*Schema
+		Schema *outputSchema
 	}{
-		Schema:  s.Name,
-		Schemas: s,
+		Schema: &outputSchema{
+			ID:         s.ID,
+			Name:       s.Name,
+			Synonyms:   strings.Join(s.Synonyms, ","),
+			Properties: strings.Join(s.Properties, ","),
+			SchemaName: s.SchemaName,
+		},
 	})
 	return &buf, err
 }
