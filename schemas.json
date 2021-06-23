@@ -1,62 +1,2482 @@
 [
   {
-    "id": "d626c419-7dc8-4126-af82-5663e422ab4e",
-    "name": "schema2",
+    "id": "NO_UNIT",
+    "name": "NO UNIT",
+    "property_ids": [],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "%",
+    "name": "%",
+    "property_ids": [],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "wt%",
+    "name": "wt%",
+    "property_ids": [],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "mol/mol",
+    "name": "mol/mol",
+    "property_ids": [],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "kg/kg",
+    "name": "kg/kg",
+    "property_ids": [],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "phr",
+    "name": "phr",
+    "property_ids": [],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "ppm",
+    "name": "ppm",
+    "property_ids": [],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "ppm/K",
+    "name": "ppm/K",
+    "property_ids": [],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "ppm/°C",
+    "name": "ppm/°C",
+    "property_ids": [],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "dalton",
+    "name": "dalton",
+    "property_ids": ["molecular_weight"],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "mol",
+    "name": "mol",
+    "property_ids": ["amount_of_substance"],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "mol/kg",
+    "name": "mol/kg",
+    "property_ids": ["molality"],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "mol/cm^3",
+    "name": "mol/cm^3",
+    "property_ids": ["molar_concentration"],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "J/g",
+    "name": "J/g",
+    "property_ids": ["heat_of_crystallization", "heat_of_fusion"],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "cal/g",
+    "name": "cal/g",
+    "property_ids": ["heat_of_crystallization", "heat_of_fusion"],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "J/mol",
+    "name": "J/mol",
+    "property_ids": ["heat_of_fusion"],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "cal/mol",
+    "name": "cal/mol",
+    "property_ids": ["heat_of_fusion"],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "J/(g・K)",
+    "name": "J/(g・K)",
+    "property_ids": ["specific_heat_capacity"],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "cal/(mol・K)",
+    "name": "cal/(mol・K)",
+    "property_ids": ["specific_heat_capacity"],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "(J/m^3)^{1/2},",
+    "name": "(J/m^3)^{1/2},",
+    "property_ids": ["solubility_parameter"],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "W/m*K",
+    "name": "W/m*K",
+    "property_ids": ["thermal_conductivity"],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "J/m^2",
+    "name": "J/m^2",
+    "property_ids": ["charpy_impact"],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "J/m",
+    "name": "J/m",
+    "property_ids": ["izod_impact"],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "%RH",
+    "name": "%RH",
+    "property_ids": ["humidity"],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "°C",
+    "name": "°C",
+    "property_ids": [
+      "linear_expansion_coefficient",
+      "crystallization_temperature",
+      "melting_temperature",
+      "LC_phase_transition_temperature",
+      "glass_transition_temperature",
+      "thermal_decomposition_temperature",
+      "DTUL",
+      "softening_temperature"
+    ],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "K",
+    "name": "K",
+    "property_ids": [
+      "linear_expansion_coefficient",
+      "crystallization_temperature",
+      "melting_temperature",
+      "LC_phase_transition_temperature",
+      "glass_transition_temperature",
+      "thermal_decomposition_temperature",
+      "DTUL",
+      "softening_temperature"
+    ],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "°C^{-1},",
+    "name": "°C^{-1},",
+    "property_ids": ["linear_expansion_coefficient"],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "day",
+    "name": "day",
+    "property_ids": ["time"],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "hr",
+    "name": "hr",
+    "property_ids": ["time"],
+    "synonyms": ["h"],
+    "schema": "unit"
+  },
+  {
+    "id": "min",
+    "name": "min",
+    "property_ids": ["time"],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "s",
+    "name": "s",
+    "property_ids": ["time"],
+    "synonyms": ["sec"],
+    "schema": "unit"
+  },
+  {
+    "id": "mm\\phi",
+    "name": "mm\\phi",
+    "property_ids": ["length"],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "mmt",
+    "name": "mmt",
+    "property_ids": ["length"],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "Hz",
+    "name": "Hz",
+    "property_ids": ["frequency"],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "rpm",
+    "name": "rpm",
+    "property_ids": [],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "degree",
+    "name": "degree",
+    "property_ids": ["angle"],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "g/m^3",
+    "name": "g/m^3",
+    "property_ids": ["density"],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "eV",
+    "name": "eV",
+    "property_ids": ["energy"],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "W",
+    "name": "W",
+    "property_ids": ["power"],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "\\ampere",
+    "name": "\\ampere",
+    "property_ids": ["electric_current"],
+    "synonyms": ["Å"],
+    "schema": "unit"
+  },
+  {
+    "id": "m/V",
+    "name": "m/V",
+    "property_ids": [],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "V m / N",
+    "name": "V m / N",
+    "property_ids": [],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "debye",
+    "name": "debye",
+    "property_ids": ["electric_dipole_moment"],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "\\ohm*m",
+    "name": "\\ohm m",
+    "property_ids": ["electrical_resistivity", "volume_resistivity"],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "\\ohm",
+    "name": "\\ohm",
+    "property_ids": ["electric_resistance", "surface_resistance"],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "\\ohm / m^2",
+    "name": "\\ohm / m^2",
+    "property_ids": ["surface_resistivity"],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "S/m",
+    "name": "S/m",
+    "property_ids": ["electric_conductivity"],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "Scm-1",
+    "name": "Scm-1",
+    "property_ids": ["electric_conductivity"],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "1/(\\ohm*m)",
+    "name": "1/(\\ohm m)",
+    "property_ids": ["electric_conductivity"],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "m^2/s",
+    "name": "m^2/s",
+    "property_ids": ["diffusion_coefficient", "gas_diffusion"],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "cm^3(STP)m/(m^2*s*Pa)",
+    "name": "cm^3(STP)m/(m^2*s*Pa)",
+    "property_ids": ["gas_permeability", "gas_solubility"],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "barrer",
+    "name": "barrer",
+    "property_ids": ["gas_permeability"],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "sec/100 cc",
+    "name": "sec/100 cc",
+    "property_ids": ["gas_permeability"],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "m^3*mol/g^2",
+    "name": "m^3*mol/g^2",
+    "property_ids": ["second_virial_coefficient"],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "l/g",
+    "name": "l/g",
+    "property_ids": ["intrinsic_viscosity", "inherent_viscosity"],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "Ns/m^2",
+    "name": "Ns/m^2",
+    "property_ids": ["melt_viscosity"],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "Pa*s",
+    "name": "Pa*s",
+    "property_ids": ["melt_viscosity"],
+    "synonyms": ["Pa s"],
+    "schema": "unit"
+  },
+  {
+    "id": "N/m",
+    "name": "N/m",
+    "property_ids": ["interfacial_tension", "surface_tension"],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "dyn/m",
+    "name": "dyn/m",
+    "property_ids": ["interfacial_tension", "surface_tension"],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "Pa",
+    "name": "Pa",
+    "property_ids": [
+      "storage_modulus",
+      "fiber_tensile_modulus",
+      "fiber_tensile_strength",
+      "tensile_modulus",
+      "tensile_stress_at_break",
+      "tensile_stress_at_yield",
+      "tensile_stress",
+      "shear_strength",
+      "flexural_modulus",
+      "flexural_stress",
+      "flexural_stress_at_break",
+      "compressive_modulus",
+      "compressive_stress"
+    ],
+    "synonyms": ["pa"],
+    "schema": "unit"
+  },
+  {
+    "id": "N/m^2",
+    "name": "N/m^2",
+    "property_ids": [
+      "storage_modulus",
+      "fiber_tensile_modulus",
+      "fiber_tensile_strength",
+      "tensile_modulus",
+      "tensile_stress_at_break",
+      "tensile_stress_at_yield",
+      "tensile_stress",
+      "shear_strength",
+      "flexural_modulus",
+      "flexural_stress",
+      "flexural_stress_at_break",
+      "compressive_modulus",
+      "compressive_stress"
+    ],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "dyn/m^2",
+    "name": "dyn/m^2",
+    "property_ids": [
+      "storage_modulus",
+      "fiber_tensile_modulus",
+      "fiber_tensile_strength",
+      "tensile_modulus",
+      "tensile_stress_at_break",
+      "tensile_stress_at_yield",
+      "tensile_stress",
+      "shear_strength",
+      "flexural_modulus",
+      "flexural_stress",
+      "flexural_stress_at_break",
+      "compressive_modulus",
+      "compressive_stress"
+    ],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "gf/m^2",
+    "name": "gf/m^2",
+    "property_ids": [
+      "flexural_modulus",
+      "flexural_stress",
+      "flexural_stress_at_break"
+    ],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "g/denier",
+    "name": "g/denier",
+    "property_ids": ["fiber_tensile_modulus", "fiber_tensile_strength"],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "dB/km",
+    "name": "dB/m",
+    "property_ids": [],
+    "synonyms": ["dBkm^{-1},", "dBkm-1"],
+    "schema": "unit"
+  },
+  {
+    "id": "meq/g",
+    "name": "meq/g",
+    "property_ids": ["ion_exchange_capacity"],
+    "synonyms": ["meq/g R"],
+    "schema": "unit"
+  },
+  {
+    "id": "monomers/turn",
+    "name": "monomers/turn",
+    "property_ids": [],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "kg-PE/(mol-Ti・h)",
+    "name": "kg-PE/(mol-Ti・h)",
+    "property_ids": [],
+    "synonyms": [],
+    "schema": "unit"
+  },
+  {
+    "id": "time",
+    "name": "time",
+    "description": "",
+    "synonyms": [],
+    "wikidata_id": "Q11471",
+    "category": "time",
+    "polyinfo": "0",
+    "schema": "property"
+  },
+  {
+    "id": "length",
+    "name": "length",
+    "description": "",
+    "synonyms": [],
+    "wikidata_id": "Q36253",
+    "category": "length",
+    "polyinfo": "0",
+    "schema": "property"
+  },
+  {
+    "id": "humidity",
+    "name": "humidity",
+    "description": "",
+    "synonyms": [],
+    "wikidata_id": "Q180600",
+    "category": "physical property",
+    "polyinfo": "0",
+    "schema": "property"
+  },
+  {
+    "id": "molecular_weight",
+    "name": "molecular weight",
+    "description": "",
+    "synonyms": [],
+    "wikidata_id": "Q103861853",
+    "category": "",
+    "polyinfo": "0",
+    "schema": "property"
+  },
+  {
+    "id": "number_average_molecular_weight",
+    "name": "number average molecular weight",
+    "description": "",
+    "synonyms": ["M_n"],
+    "wikidata_id": "",
+    "category": "",
+    "polyinfo": "0",
+    "schema": "property"
+  },
+  {
+    "id": "weight_average_molecular_weight",
+    "name": "weight average molecular weight",
+    "description": "",
+    "synonyms": ["M_w"],
+    "wikidata_id": "",
+    "category": "",
+    "polyinfo": "0",
+    "schema": "property"
+  },
+  {
+    "id": "M_w/M_n",
+    "name": "M_w/M_n",
+    "description": "",
+    "synonyms": [],
+    "wikidata_id": "",
+    "category": "",
+    "polyinfo": "0",
+    "schema": "property"
+  },
+  {
+    "id": "density",
+    "name": "density",
+    "description": "密度",
+    "synonyms": [],
+    "wikidata_id": "Q29539",
+    "category": "physical property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "frequency",
+    "name": "frequency",
+    "description": "",
+    "synonyms": [],
+    "wikidata_id": "Q11652",
+    "category": "physical property",
+    "polyinfo": "0",
+    "schema": "property"
+  },
+  {
+    "id": "angle",
+    "name": "angle",
+    "description": "",
+    "synonyms": [],
+    "wikidata_id": "Q11352",
+    "category": "physical property",
+    "polyinfo": "0",
+    "schema": "property"
+  },
+  {
+    "id": "ion_exchange_capacity",
+    "name": "ion exchange capacity",
+    "description": "",
+    "synonyms": [],
+    "wikidata_id": "",
+    "category": "physicochemical property",
+    "polyinfo": "0",
+    "schema": "property"
+  },
+  {
+    "id": "energy",
+    "name": "energy",
+    "description": "",
+    "synonyms": [],
+    "wikidata_id": "Q11379",
+    "category": "physical property",
+    "polyinfo": "0",
+    "schema": "property"
+  },
+  {
+    "id": "power",
+    "name": "power",
+    "description": "",
+    "synonyms": [],
+    "wikidata_id": "Q25342",
+    "category": "physical property",
+    "polyinfo": "0",
+    "schema": "property"
+  },
+  {
+    "id": "electric_current",
+    "name": "electric current",
+    "description": "",
+    "synonyms": [],
+    "wikidata_id": "Q11651",
+    "category": "physical property",
+    "polyinfo": "0",
+    "schema": "property"
+  },
+  {
+    "id": "amount_of_substance",
+    "name": "amount of substance",
+    "description": "",
+    "synonyms": [],
+    "wikidata_id": "Q104946",
+    "category": "physicochemical property",
+    "polyinfo": "0",
+    "schema": "property"
+  },
+  {
+    "id": "molality",
+    "name": "molality",
+    "description": "",
+    "synonyms": [],
+    "wikidata_id": "Q172623",
+    "category": "physicochemical property",
+    "polyinfo": "0",
+    "schema": "property"
+  },
+  {
+    "id": "molar_concentration",
+    "name": "molar concentration",
+    "description": "",
+    "synonyms": [],
+    "wikidata_id": "Q672821",
+    "category": "physicochemical property",
+    "polyinfo": "0",
+    "schema": "property"
+  },
+  {
+    "id": "refractive_index",
+    "name": "refractive index",
+    "description": "屈折率",
+    "synonyms": [],
+    "wikidata_id": "Q174102",
+    "category": "optical property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "heat_of_crystallization",
+    "name": "heat of crystallization",
+    "description": "結晶化熱",
+    "synonyms": [],
+    "wikidata_id": "",
+    "category": "thermal property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "heat_of_fusion",
+    "name": "heat of fusion",
+    "description": "溶融熱",
+    "synonyms": [],
+    "wikidata_id": "Q484790",
+    "category": "thermal property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "heat_of_LC_phase_transition",
+    "name": "heat of LC phase transition",
+    "description": "",
+    "synonyms": [],
+    "wikidata_id": "",
+    "category": "thermal property",
+    "polyinfo": "0",
+    "schema": "property"
+  },
+  {
+    "id": "specific_heat_capacity",
+    "name": "specific heat capacity",
+    "description": "",
+    "synonyms": [],
+    "wikidata_id": "Q487756",
+    "category": "thermal property",
+    "polyinfo": "0",
+    "schema": "property"
+  },
+  {
+    "id": "thermal_conductivity",
+    "name": "thermal conductivity",
+    "description": "熱伝導度",
+    "synonyms": [],
+    "wikidata_id": "Q487005",
+    "category": "thermal property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "linear_expansion_coefficient",
+    "name": "linear expansion coefficient",
+    "description": "線膨張係数",
+    "synonyms": [],
+    "wikidata_id": "Q74760821",
+    "category": "thermal property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "crystallization_temperature",
+    "name": "crystallization temperature",
+    "description": "結晶化温度",
+    "synonyms": ["T_{c},"],
+    "wikidata_id": "",
+    "category": "thermal property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "melting_temperature",
+    "name": "melting temperature",
+    "description": "溶融温度",
+    "synonyms": ["T_{m},"],
+    "wikidata_id": "Q15318",
+    "category": "thermal property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "LC_phase_transition_temperature",
+    "name": "LC phase transition temperature",
+    "description": "液晶相転移温度",
+    "synonyms": ["T_{LC},"],
+    "wikidata_id": "",
+    "category": "thermal property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "glass_transition_temperature",
+    "name": "glass transition temperature",
+    "description": "ガラス転移温度",
+    "synonyms": ["T_{g},"],
+    "wikidata_id": "Q10384164",
+    "category": "thermal property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "thermal_decomposition_temperature",
+    "name": "thermal decomposition temperature",
+    "description": "熱分解温度",
+    "synonyms": ["T_{dec},"],
+    "wikidata_id": "",
+    "category": "thermal property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "isothermal_weight_loss",
+    "name": "isothermal weight loss",
+    "description": "等温重量減少",
+    "synonyms": [],
+    "wikidata_id": "",
+    "category": "thermal property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "dielectric_constant",
+    "name": "dielectric constant",
+    "description": "誘電率",
+    "synonyms": [],
+    "wikidata_id": "Q103857496",
+    "category": "electrical property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "relative_dielectric_constant",
+    "name": "relative dielectric constant",
+    "description": "比誘電率",
+    "synonyms": ["relative DC"],
+    "wikidata_id": "",
+    "category": "electrical property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "dielectric_loss_tangent",
+    "name": "dielectric loss tangent",
+    "description": "誘電正接",
+    "synonyms": [],
+    "wikidata_id": "",
+    "category": "electrical property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "electric_conductivity",
+    "name": "electric conductivity",
+    "description": "電気伝導度",
+    "synonyms": [],
+    "wikidata_id": "Q4593291",
+    "category": "electrical property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "electric_dipole_moment",
+    "name": "electric dipole moment",
+    "description": "",
+    "synonyms": [],
+    "wikidata_id": "Q735135",
+    "category": "",
+    "polyinfo": "0",
+    "schema": "property"
+  },
+  {
+    "id": "surface_resistivity",
+    "name": "surface resistivity",
+    "description": "表面抵抗率",
+    "synonyms": [],
+    "wikidata_id": "",
+    "category": "electrical property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "surface_resistance",
+    "name": "surface resistance",
+    "description": "",
+    "synonyms": [],
+    "wikidata_id": "Q2266148",
+    "category": "electrical property",
+    "polyinfo": "0",
+    "schema": "property"
+  },
+  {
+    "id": "volume_resistivity",
+    "name": "volume resistivity",
+    "description": "体積抵抗率",
+    "synonyms": [],
+    "wikidata_id": "",
+    "category": "electrical property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "electrical_resistivity",
+    "name": "electrical resistivity",
+    "description": "",
+    "synonyms": [],
+    "wikidata_id": "Q108193",
+    "category": "electrical property",
+    "polyinfo": "0",
+    "schema": "property"
+  },
+  {
+    "id": "electric_resistance",
+    "name": "electric resistance",
+    "description": "",
+    "synonyms": [],
+    "wikidata_id": "Q25358",
+    "category": "electrical property",
+    "polyinfo": "0",
+    "schema": "property"
+  },
+  {
+    "id": "interfacial_tension",
+    "name": "interfacial tension",
+    "description": "界面張力",
+    "synonyms": [],
+    "wikidata_id": "Q103860205",
+    "category": "physicochemical property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "solubility_parameter",
+    "name": "solubility parameter",
+    "description": "溶解性パラメータ",
+    "synonyms": [],
+    "wikidata_id": "Q7558940",
+    "category": "physicochemical property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "surface_tension",
+    "name": "surface tension",
+    "description": "表面張力",
+    "synonyms": [],
+    "wikidata_id": "Q170749",
+    "category": "physicochemical property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "water_absorption",
+    "name": "water absorption",
+    "description": "吸水率",
+    "synonyms": [],
+    "wikidata_id": "Q2550696",
+    "category": "physicochemical property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "water_vapor_transmission",
+    "name": "water vapor transmission",
+    "description": "透湿度",
+    "synonyms": [],
+    "wikidata_id": "",
+    "category": "physicochemical property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "gas_diffusion_coefficient",
+    "name": "gas diffusion coefficient",
+    "description": "ガス拡散係数",
+    "synonyms": ["gas diffusion"],
+    "wikidata_id": "Q97012754",
+    "category": "physicochemical property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "gas_permeability_coefficient",
+    "name": "gas permeability coefficient",
+    "description": "ガス透過係数",
+    "synonyms": ["gas permeability"],
+    "wikidata_id": "Q97012766",
+    "category": "physicochemical property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "gas_solubility_coefficient",
+    "name": "gas solubility coefficient",
+    "description": "ガス溶解度係数",
+    "synonyms": ["gas solubility"],
+    "wikidata_id": "",
+    "category": "physicochemical property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "diffusion_coefficient",
+    "name": "diffusion coefficient",
+    "description": "拡散係数",
+    "synonyms": [],
+    "wikidata_id": "Q604008",
+    "category": "dilute solution property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "intrinsic_viscosity",
+    "name": "intrinsic viscosity",
+    "description": "固有粘度",
+    "synonyms": [],
+    "wikidata_id": "Q2804680",
+    "category": "dilute solution property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "inherent_viscosity",
+    "name": "inherent viscosity",
+    "description": "インヘレント粘度",
+    "synonyms": [],
+    "wikidata_id": "Q6033731",
+    "category": "dilute solution property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "second_virial_coefficient",
+    "name": "second virial coefficient",
+    "description": "第二ビリアル係数",
+    "synonyms": [],
+    "wikidata_id": "",
+    "category": "dilute solution property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "melt_viscosity",
+    "name": "melt viscosity",
+    "description": "溶融粘度",
+    "synonyms": [],
+    "wikidata_id": "",
+    "category": "rheological property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "viscoelasticity",
+    "name": "viscoelasticity",
+    "description": "粘弾性",
+    "synonyms": [],
+    "wikidata_id": "Q910483",
+    "category": "rheological property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "shear_viscosity",
+    "name": "shear viscosity",
+    "description": "せん断粘性",
+    "synonyms": [],
+    "wikidata_id": "Q103865215",
+    "category": "rheological property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "dynamic_viscosity",
+    "name": "dynamic viscosity",
+    "description": "動粘性",
+    "synonyms": [],
+    "wikidata_id": "Q15152757",
+    "category": "rheological property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "storage_modulus",
+    "name": "storage modulus",
+    "description": "貯蔵弾性率",
+    "synonyms": [],
+    "wikidata_id": "",
+    "category": "dynamic mechanical property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "elongation_at_break",
+    "name": "elongation at break",
+    "description": "破壊伸び",
+    "synonyms": [],
+    "wikidata_id": "Q991936",
+    "category": "tensile property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "elongation_at_yield",
+    "name": "elongation at yield",
+    "description": "降伏伸び",
+    "synonyms": [],
+    "wikidata_id": "",
+    "category": "tensile property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "fiber_tensile_modulus",
+    "name": "fiber tensile modulus",
+    "description": "繊維引張弾性率",
+    "synonyms": [],
+    "wikidata_id": "",
+    "category": "tensile property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "fiber_tensile_strength",
+    "name": "fiber tensile strength",
+    "description": "繊維引張強さ",
+    "synonyms": ["fiber tensile strength at break"],
+    "wikidata_id": "",
+    "category": "tensile property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "tensile_modulus",
+    "name": "tensile modulus",
+    "description": "引張弾性率",
+    "synonyms": [],
+    "wikidata_id": "",
+    "category": "tensile property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "tensile_stress_at_break",
+    "name": "tensile stress at break",
+    "description": "引張破壊応力(強さ)",
+    "synonyms": [],
+    "wikidata_id": "",
+    "category": "tensile property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "tensile_stress_at_yield",
+    "name": "tensile stress at yield",
+    "description": "引張降伏応力(強さ)",
+    "synonyms": [],
+    "wikidata_id": "",
+    "category": "tensile property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "elongation",
+    "name": "elongation",
+    "description": "伸び",
+    "synonyms": [],
+    "wikidata_id": "Q1990546",
+    "category": "tensile property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "fiber_tensile_elongation",
+    "name": "fiber tensile elongation",
+    "description": "繊維引張伸び",
+    "synonyms": ["fiber tensile elongation at break"],
+    "wikidata_id": "",
+    "category": "tensile property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "tensile_stress",
+    "name": "tensile stress",
+    "description": "引張応力",
+    "synonyms": [],
+    "wikidata_id": "",
+    "category": "tensile property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "shear_strength",
+    "name": "shear strength",
+    "description": "せん断強さ",
+    "synonyms": [],
+    "wikidata_id": "Q901396",
+    "category": "shear property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "flexural_modulus",
+    "name": "flexural modulus",
+    "description": "曲げ弾性率",
+    "synonyms": [],
+    "wikidata_id": "Q5459047",
+    "category": "flexural property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "flexural_stress",
+    "name": "flexural stress",
+    "description": "曲げ応力",
+    "synonyms": [],
+    "wikidata_id": "P5677",
+    "category": "flexural property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "flexural_stress_at_break",
+    "name": "flexural stress at break",
+    "description": "破断点曲げ応力(強さ)",
+    "synonyms": [],
+    "wikidata_id": "",
+    "category": "flexural property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "compressive_modulus",
+    "name": "compressive modulus",
+    "description": "圧縮弾性率",
+    "synonyms": [],
+    "wikidata_id": "P5993",
+    "category": "compressive property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "compressive_stress",
+    "name": "compressive stress",
+    "description": "圧縮応力",
+    "synonyms": ["compressive strength"],
+    "wikidata_id": "Q2920781",
+    "category": "compressive property",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "DTUL",
+    "name": "DTUL",
+    "description": "荷重たわみ温度",
+    "synonyms": ["\"HDT", "deflection temperature under load\""],
+    "wikidata_id": "Q477481",
+    "category": "thermal characteristics",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "softening_temperature",
+    "name": "softening temperature",
+    "description": "軟化温度",
+    "synonyms": [],
+    "wikidata_id": "",
+    "category": "thermal characteristics",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "charpy_impact",
+    "name": "charpy impact",
+    "description": "シャルピー衝撃値",
+    "synonyms": [],
+    "wikidata_id": "Q653604",
+    "category": "impact resistance",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "izod_impact",
+    "name": "izod impact",
+    "description": "アイゾッド衝撃値",
+    "synonyms": [],
+    "wikidata_id": "Q97010247",
+    "category": "impact resistance",
+    "polyinfo": "1",
+    "schema": "property"
+  },
+  {
+    "id": "Pycnometer",
+    "name": "Pycnometer",
+    "description": "密度・体積 測定",
+    "synonyms": ["Picnometer method"],
+    "properties": [],
+    "category": "physical_property_measurement",
+    "polyinfo": "1",
+    "schema": "method"
+  },
+  {
+    "id": "Density_measurement",
+    "name": "Density measurement",
+    "description": "密度測定",
+    "synonyms": [],
+    "properties": [],
+    "category": "physical_property_measurement",
+    "polyinfo": "1",
+    "schema": "method"
+  },
+  {
+    "id": "Dilatometry",
+    "name": "Dilatometry",
+    "description": "膨張計による体積変化測定",
+    "synonyms": ["Dilatometer"],
+    "properties": [],
+    "category": "physical_property_measurement",
+    "polyinfo": "1",
+    "schema": "method"
+  },
+  {
+    "id": "Mercury_intrusion_method",
+    "name": "Mercury intrusion method",
+    "description": "材料の多孔質構造の調査",
+    "synonyms": [],
+    "properties": [],
+    "category": "physical_property_measurement",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "Total_dissolved_solids",
+    "name": "Total dissolved solids",
+    "description": "総溶解固形物",
+    "synonyms": ["TDS"],
+    "properties": [],
+    "category": "physical_property_measurement",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "Withdrawal_speed",
+    "name": "Withdrawal speed",
+    "description": "引き離し速度",
+    "synonyms": [],
+    "properties": [],
+    "category": "physical_property_measurement",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "Diffusion_coefficient-molar_mass",
+    "name": "Diffusion coefficient-molar mass",
+    "description": "拡散係数−モル質量",
+    "synonyms": ["DM"],
+    "properties": [],
+    "category": "physical_property_measurement",
+    "polyinfo": "1",
+    "schema": "method"
+  },
+  {
+    "id": "Fisher-John's_melting_point_apparatus",
+    "name": "Fisher-John's melting point apparatus",
+    "description": "",
+    "synonyms": ["Fisher-John melting apparatus"],
+    "properties": [],
+    "category": "physical_property_measurement",
+    "polyinfo": "1",
+    "schema": "method"
+  },
+  {
+    "id": "Abbe_refractometer",
+    "name": "Abbe refractometer",
+    "description": "アッベの屈折計、臨界角屈折法",
+    "synonyms": [],
+    "properties": [],
+    "category": "physical_property_measurement",
+    "polyinfo": "1",
+    "schema": "method"
+  },
+  {
+    "id": "Laser_flash",
+    "name": "Laser flash",
+    "description": "",
+    "synonyms": [],
+    "properties": [],
+    "category": "spectroscopy",
+    "polyinfo": "1",
+    "schema": "method"
+  },
+  {
+    "id": "Optical_method",
+    "name": "Optical method",
+    "description": "",
+    "synonyms": [],
+    "properties": [],
+    "category": "spectroscopy",
+    "polyinfo": "1",
+    "schema": "method"
+  },
+  {
+    "id": "Opto-acoustic",
+    "name": "Opto-acoustic",
+    "description": "",
+    "synonyms": [],
+    "properties": [],
+    "category": "spectroscopy",
+    "polyinfo": "1",
+    "schema": "method"
+  },
+  {
+    "id": "Passing_light_intensity_measurement",
+    "name": "Passing light intensity measurement",
+    "description": "",
+    "synonyms": [],
+    "properties": [],
+    "category": "spectroscopy",
+    "polyinfo": "1",
+    "schema": "method"
+  },
+  {
+    "id": "Polarized_optical_microscopic_observation",
+    "name": "Polarized optical microscopic observation",
+    "description": "偏光顕微鏡観察",
+    "synonyms": [],
+    "properties": [],
+    "category": "spectroscopy",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "Multiangle_light_scattering",
+    "name": "Multiangle light scattering",
+    "description": "",
+    "synonyms": ["MALS"],
+    "properties": [],
+    "category": "spectroscopy",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "Elipsometry",
+    "name": "Elipsometry",
+    "description": "偏光解析法",
+    "synonyms": [],
+    "properties": [],
+    "category": "spectroscopy",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "Light_scattering_method",
+    "name": "Light scattering method",
+    "description": "光散乱法",
+    "synonyms": ["LS"],
+    "properties": [],
+    "category": "spectroscopy",
+    "polyinfo": "1",
+    "schema": "method"
+  },
+  {
+    "id": "Static_light_scattering",
+    "name": "Static light scattering",
+    "description": "静的光散乱法",
+    "synonyms": ["SLS"],
+    "properties": [],
+    "category": "spectroscopy",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "Dynamic_light_scattering",
+    "name": "Dynamic light scattering",
+    "description": "動的光散乱法",
+    "synonyms": ["DLS"],
+    "properties": [],
+    "category": "spectroscopy",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "DLS-CONTIN",
+    "name": "DLS-CONTIN",
+    "description": "解析手法名",
+    "synonyms": [],
+    "properties": [],
+    "category": "spectroscopy",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "Diffusion-ordered_two-dimensional_spectroscopy",
+    "name": "Diffusion-ordered two-dimensional spectroscopy",
+    "description": "",
+    "synonyms": ["DOSY"],
+    "properties": [],
+    "category": "spectroscopy",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "DOSY-CONTIN",
+    "name": "DOSY-CONTIN",
+    "description": "解析手法名",
+    "synonyms": [],
+    "properties": [],
+    "category": "spectroscopy",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "Broadband_dielectric_spectroscopy",
+    "name": "Broadband dielectric spectroscopy",
+    "description": "",
+    "synonyms": ["BDS"],
+    "properties": [],
+    "category": "spectroscopy",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "Small-angle_neutron_scattering",
+    "name": "Small-angle neutron scattering",
+    "description": "小角中性子散乱法",
+    "synonyms": ["SANS"],
+    "properties": [],
+    "category": "spectroscopy",
+    "polyinfo": "1",
+    "schema": "method"
+  },
+  {
+    "id": "Small-angle_X-ray_scattering",
+    "name": "Small-angle X-ray scattering",
+    "description": "小角X線散乱法",
+    "synonyms": ["SAXS"],
+    "properties": [],
+    "category": "spectroscopy",
+    "polyinfo": "1",
+    "schema": "method"
+  },
+  {
+    "id": "Heat-aging",
+    "name": "Heat-aging",
+    "description": "",
+    "synonyms": [],
+    "properties": [],
+    "category": "thermal_property_measurement",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "Melting_point_analyses",
+    "name": "Melting point analyses",
+    "description": "融点解析",
+    "synonyms": [],
+    "properties": [],
+    "category": "thermal_property_measurement",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "Thermogravimetry",
+    "name": "Thermogravimetry",
+    "description": "熱重量測定",
+    "synonyms": ["TG", " thermogravimetric analysis", " TGA"],
+    "properties": [],
+    "category": "thermal_property_measurement",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "Differential_thermal_analysis",
+    "name": "Differential thermal analysis",
+    "description": "示差熱分析",
+    "synonyms": ["DTA"],
+    "properties": [],
+    "category": "thermal_property_measurement",
+    "polyinfo": "1",
+    "schema": "method"
+  },
+  {
+    "id": "TG-DTA",
+    "name": "TG-DTA",
+    "description": "熱重量測定-示差熱分析",
+    "synonyms": [],
+    "properties": [],
+    "category": "thermal_property_measurement",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "Isothermal_gravimetric_analysis",
+    "name": "Isothermal gravimetric analysis",
+    "description": "",
+    "synonyms": [],
+    "properties": [],
+    "category": "thermal_property_measurement",
+    "polyinfo": "1",
+    "schema": "method"
+  },
+  {
+    "id": "Thermomechanical_analysis",
+    "name": "Thermomechanical analysis",
+    "description": "熱力学解析",
+    "synonyms": ["TMA"],
+    "properties": [],
+    "category": "thermal_property_measurement",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "Solvothermal_method",
+    "name": "Solvothermal method",
+    "description": "ソルボサーマル法",
+    "synonyms": [],
+    "properties": [],
+    "category": "thermal_property_measurement",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "Differential-pressure_method",
+    "name": "Differential-pressure method",
+    "description": "差圧法",
+    "synonyms": [],
+    "properties": [],
+    "category": "thermal_property_measurement",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "Differential_scanning_calorimetry",
+    "name": "Differential scanning calorimetry",
+    "description": "示差走査熱量測定",
+    "synonyms": [
+      "DSC",
+      "DSC analysis",
+      " DSC first scan",
+      " cooling DSC",
+      " Differential scanning calorimeter"
+    ],
+    "properties": [],
+    "category": "thermal_property_measurement",
+    "polyinfo": "1",
+    "schema": "method"
+  },
+  {
+    "id": "Small_burning_test",
+    "name": "Small burning test",
+    "description": "燃焼試験",
+    "synonyms": ["UL94V", " UL94 test"],
+    "properties": [],
+    "category": "thermal_property_measurement",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "Membrane_osmosis",
+    "name": "Membrane osmosis",
+    "description": "Second virial coefficient測定法",
+    "synonyms": [],
+    "properties": [],
+    "category": "thermal_property_measurement",
+    "polyinfo": "1",
+    "schema": "method"
+  },
+  {
+    "id": "Cloud_point",
+    "name": "Cloud point",
+    "description": "曇点、くもり点 (Theta-solvent/Theta-temp 測定法)",
+    "synonyms": ["C.P."],
+    "properties": [],
+    "category": "thermal_property_measurement",
+    "polyinfo": "1",
+    "schema": "method"
+  },
+  {
+    "id": "Phase_equilibrium",
+    "name": "Phase equilibrium",
+    "description": "相平衡 (Theta-solvent/Theta-temp 測定法)",
+    "synonyms": ["PE"],
+    "properties": [],
+    "category": "thermal_property_measurement",
+    "polyinfo": "1",
+    "schema": "method"
+  },
+  {
+    "id": "NMR",
+    "name": "NMR",
+    "description": "核磁気共鳴",
+    "synonyms": ["NMR spectroscopy"],
+    "properties": [],
+    "category": "nmr",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "13C_NMR",
+    "name": "13C NMR",
+    "description": "炭素13核磁気共鳴",
+    "synonyms": ["13C NMR spectroscopy"],
+    "properties": [],
+    "category": "nmr",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "1H_NMR",
+    "name": "1H NMR",
+    "description": "プロトン核磁気共鳴",
+    "synonyms": ["1H NMR spectroscopy"],
+    "properties": [],
+    "category": "nmr",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "Gel_permeation_chromatography",
+    "name": "Gel permeation chromatography",
+    "description": "ゲル透過クロマトグラフィー",
+    "synonyms": [
+      "GPC",
+      "GPC analysis",
+      "GPC on the basis of polystyrene calibration"
+    ],
+    "properties": [],
+    "category": "chromatography",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "GPC-MALLS",
+    "name": "GPC-MALLS",
+    "description": "ゲル透過クロマトグラフィー-多角度レーザー光散乱",
+    "synonyms": [
+      "Gel Permeation Chromatography - Multi-Angle Laser Light Scattering"
+    ],
+    "properties": [],
+    "category": "chromatography",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "Size_exclusion_chromatography",
+    "name": "Size exclusion chromatography",
+    "description": "サイズ排除クロマトグラフィ",
+    "synonyms": ["SEC", "SEC (standard PS)"],
+    "properties": [],
+    "category": "chromatography",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "SEC-MALLS",
+    "name": "SEC-MALLS",
+    "description": "サイズ排除クロマトグラフィ-多角度レーザー光散乱",
+    "synonyms": [
+      "Size Exclusion Chromatography - Multi-Angle Laser Light Scattering"
+    ],
+    "properties": [],
+    "category": "chromatography",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "SEC-MALS",
+    "name": "SEC-MALS",
+    "description": "サイズ排除クロマトグラフィ-多角度光散乱",
+    "synonyms": [
+      "Size Exclusion Chromatography - Multi Angle Light Scattering"
+    ],
+    "properties": [],
+    "category": "chromatography",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "Viscoelastic_test",
+    "name": "Viscoelastic test",
+    "description": "粘弾性試験",
+    "synonyms": [],
+    "properties": [],
+    "category": "viscosity_measurement",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "Dynamic_viscoelastic_analysis",
+    "name": "Dynamic viscoelastic analysis",
+    "description": "動的粘弾性解析",
+    "synonyms": ["DVA"],
+    "properties": [],
+    "category": "viscosity_measurement",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "Intrinsic_viscosity_measurements",
+    "name": "Intrinsic viscosity measurements",
+    "description": "固有粘度測定",
+    "synonyms": [],
+    "properties": [],
+    "category": "viscosity_measurement",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "Intrinsic_viscosity-molar_mass",
+    "name": "Intrinsic viscosity-molar mass",
+    "description": "固有粘度−モル質量",
+    "synonyms": ["VM"],
+    "properties": [],
+    "category": "viscosity_measurement",
+    "polyinfo": "1",
+    "schema": "method"
+  },
+  {
+    "id": "Capillary_rheometer",
+    "name": "Capillary rheometer",
+    "description": "キャピラリー粘度計",
+    "synonyms": [],
+    "properties": [],
+    "category": "viscosity_measurement",
+    "polyinfo": "1",
+    "schema": "method"
+  },
+  {
+    "id": "Rotational_rheometer",
+    "name": "Rotational rheometer",
+    "description": "回転粘度計, ブルックフィールド形単一円筒回転粘度計及び二重円筒回転粘度計",
+    "synonyms": [],
+    "properties": [],
+    "category": "viscosity_measurement",
+    "polyinfo": "1",
+    "schema": "method"
+  },
+  {
+    "id": "Solution_viscosity",
+    "name": "Solution viscosity",
+    "description": "溶液粘度",
+    "synonyms": [],
+    "properties": [],
+    "category": "viscosity_measurement",
+    "polyinfo": "1",
+    "schema": "method"
+  },
+  {
+    "id": "Tensile_test",
+    "name": "Tensile test",
+    "description": "引張試験",
+    "synonyms": [],
+    "properties": [],
+    "category": "modulus_measurement",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "Resilience",
+    "name": "Resilience",
+    "description": "弾性変形時にエネルギーを吸収し、負荷がなくなったときにそのエネルギーを放出する能力",
+    "synonyms": [],
+    "properties": [],
+    "category": "modulus_measurement",
+    "polyinfo": "1",
+    "schema": "method"
+  },
+  {
+    "id": "Dynamic_mechanical_analysis",
+    "name": "Dynamic mechanical analysis",
+    "description": "動的機械解析",
+    "synonyms": ["DMA", " DMA (contain Vibron)"],
+    "properties": [],
+    "category": "dynamic_mechanical_property_measurement",
+    "polyinfo": "1",
+    "schema": "method"
+  },
+  {
+    "id": "Polymerization_method",
+    "name": "Polymerization method",
+    "description": "",
+    "synonyms": [],
+    "properties": [],
+    "category": "others",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "Monomer_conversions",
+    "name": "Monomer conversions",
+    "description": "",
+    "synonyms": [],
+    "properties": [],
+    "category": "others",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "Sedimentation",
+    "name": "Sedimentation",
+    "description": "沈降",
+    "synonyms": [],
+    "properties": [],
+    "category": "others",
+    "polyinfo": "1",
+    "schema": "method"
+  },
+  {
+    "id": "Sedimentation_coefficient-molar_mass",
+    "name": "Sedimentation coefficient-molar mass",
+    "description": "沈降係数−モル質量",
+    "synonyms": ["SM"],
+    "properties": [],
+    "category": "others",
+    "polyinfo": "1",
+    "schema": "method"
+  },
+  {
+    "id": "AC_impedance_method",
+    "name": "AC impedance method",
+    "description": "",
+    "synonyms": [],
+    "properties": [],
+    "category": "others",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "Dielectric_relaxation",
+    "name": "Dielectric relaxation",
+    "description": "誘電緩和",
+    "synonyms": [],
+    "properties": [],
+    "category": "dielectric_property_measurement",
+    "polyinfo": "1",
+    "schema": "method"
+  },
+  {
+    "id": "Bridge",
+    "name": "Bridge",
+    "description": "",
+    "synonyms": [],
+    "properties": [],
+    "category": "dielectric_property_measurement",
+    "polyinfo": "1",
+    "schema": "method"
+  },
+  {
+    "id": "Step",
+    "name": "Step",
+    "description": "",
+    "synonyms": [],
+    "properties": [],
+    "category": "dielectric_property_measurement",
+    "polyinfo": "1",
+    "schema": "method"
+  },
+  {
+    "id": "Reflection",
+    "name": "Reflection",
+    "description": "",
+    "synonyms": [],
+    "properties": [],
+    "category": "dielectric_property_measurement",
+    "polyinfo": "1",
+    "schema": "method"
+  },
+  {
+    "id": "Digital",
+    "name": "Digital",
+    "description": "",
+    "synonyms": [],
+    "properties": [],
+    "category": "dielectric_property_measurement",
+    "polyinfo": "1",
+    "schema": "method"
+  },
+  {
+    "id": "Magnetic_strength",
+    "name": "Magnetic strength",
+    "description": "",
+    "synonyms": [],
+    "properties": [],
+    "category": "others",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "Fedor's_equation",
+    "name": "Fedor's equation",
+    "description": "溶解度パラメーター計算手法",
+    "synonyms": [],
+    "properties": [],
+    "category": "solubility_parameter",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "Small's_equation",
+    "name": "Small's equation",
+    "description": "溶解度パラメーター計算手法",
+    "synonyms": [],
+    "properties": [],
+    "category": "solubility_parameter",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "Density_functional_theory",
+    "name": "Density functional theory",
+    "description": "密度汎関数法",
+    "synonyms": ["DFT"],
+    "properties": [],
+    "category": "others",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "Ultrasonic-microwave_method",
+    "name": "Ultrasonic-microwave method",
+    "description": "超音波 / マイクロ波法",
+    "synonyms": [],
+    "properties": [],
+    "category": "others",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "Titration",
+    "name": "Titration",
+    "description": "滴定",
+    "synonyms": ["Titr."],
+    "properties": [],
+    "category": "others",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "Phenol_degradation",
+    "name": "Phenol degradation",
+    "description": "包接試験",
+    "synonyms": [],
+    "properties": [],
+    "category": "others",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "Emulsification",
+    "name": "Emulsification",
+    "description": "乳化",
+    "synonyms": [],
+    "properties": [],
+    "category": "others",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "Bar_coating",
+    "name": "Bar coating",
+    "description": "液体試料を均一な厚さに塗布",
+    "synonyms": [],
+    "properties": [],
+    "category": "others",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "Shore_hardness_measurement",
+    "name": "Shore hardness measurement",
+    "description": "Shore hardness 測定法",
+    "synonyms": ["A type", " C type", " D type"],
+    "properties": [],
+    "category": "hardness_measurement",
+    "polyinfo": "1",
+    "schema": "method"
+  },
+  {
+    "id": "Rockwell_hardness__measurement",
+    "name": "Rockwell hardness  measurement",
+    "description": "Rockwell hardness 測定法",
+    "synonyms": [
+      "Rockwell",
+      "Rockwell (load = 10kgf)",
+      "Rockwell superficial (load = 3kg)"
+    ],
+    "properties": [],
+    "category": "hardness_measurement",
+    "polyinfo": "1",
+    "schema": "method"
+  },
+  {
+    "id": "With_notch",
+    "name": "With notch",
+    "description": "衝撃値測定法",
+    "synonyms": ["Without notch"],
+    "properties": [],
+    "category": "impact_measurement",
+    "polyinfo": "1",
+    "schema": "method"
+  },
+  {
+    "id": "Microscope",
+    "name": "Microscope",
+    "description": "顕微鏡",
+    "synonyms": [],
+    "properties": [],
+    "category": "optical_method",
+    "polyinfo": "1",
+    "schema": "method"
+  },
+  {
+    "id": "Optical_microscope",
+    "name": "Optical microscope",
+    "description": "光学顕微鏡",
+    "synonyms": [],
+    "properties": [],
+    "category": "optical_method",
+    "polyinfo": "1",
+    "schema": "method"
+  },
+  {
+    "id": "Soldering",
+    "name": "Soldering",
+    "description": "半田付け",
+    "synonyms": [],
+    "properties": [],
+    "category": "others",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "Humidity_treatment",
+    "name": "Humidity treatment",
+    "description": "調湿処理",
+    "synonyms": [],
+    "properties": [],
+    "category": "others",
+    "polyinfo": "0",
+    "schema": "method"
+  },
+  {
+    "id": "Thickness",
+    "name": "Thickness",
+    "description": "厚さ",
+    "synonyms": [],
+    "category": "",
+    "schema": "state_of_sample",
+    "polyinfo": "0",
+    "properties": []
+  },
+  {
+    "id": "Optical_isomers",
+    "name": "Optical isomers",
+    "description": "光学異性体 (cis/trans)",
+    "synonyms": [],
+    "category": "",
+    "schema": "isomer",
+    "polyinfo": "0",
+    "properties": []
+  },
+  {
+    "id": "Crystal_plane",
+    "name": "Crystal plane",
+    "description": "結晶面",
+    "synonyms": [],
+    "category": "",
+    "schema": "state_of_sample",
+    "polyinfo": "0",
+    "properties": []
+  },
+  {
+    "id": "Ways_of_crystallization",
+    "name": "Ways of crystallization",
+    "description": "結晶化方法 (Heating, Cooling, from solution)",
+    "synonyms": [],
+    "category": "",
+    "schema": "process_attribute",
+    "polyinfo": "0",
+    "properties": []
+  },
+  {
+    "id": "Phase",
+    "name": "Phase",
+    "description": "結晶部、非晶部の区別 (crystal/amorphous/overall/unknown)",
+    "synonyms": [],
+    "category": "",
+    "schema": "state_of_sample",
+    "polyinfo": "1",
+    "properties": []
+  },
+  {
+    "id": "State_of_samples",
+    "name": "State of samples",
+    "description": "サンプルの状態 (glassy, rubber など)",
+    "synonyms": [],
+    "category": "",
+    "schema": "state_of_sample",
+    "polyinfo": "1",
+    "properties": []
+  },
+  {
+    "id": "Concentration",
+    "name": "Concentration",
+    "description": "濃縮条件",
+    "synonyms": [],
+    "category": "",
+    "schema": "process_attribute",
+    "polyinfo": "0",
+    "properties": []
+  },
+  {
+    "id": "Times",
+    "name": "Times",
+    "description": "処理回数",
+    "synonyms": [],
+    "category": "",
+    "schema": "process_attribute",
+    "polyinfo": "0",
+    "properties": []
+  },
+  {
+    "id": "Time",
+    "name": "Time",
+    "description": "処理時間、反応時間",
+    "synonyms": ["Reaction time"],
+    "category": "",
+    "schema": "process_attribute",
+    "polyinfo": "1",
     "properties": [
-      {
-        "id": "a9f720d0-942d-4c20-822c-d2ca9d94fa42",
-        "name": "テストプロパティ",
-        "type": "",
-        "color": "#ff8a80",
-        "sort": 1
-      },
-      {
-        "id": "3951dd74-7022-4e51-b4f5-9c20933d2580",
-        "name": "テストプロパティ2",
-        "type": "",
-        "color": "#ff8a80",
-        "sort": 2
-      }
+      "gas_diffusion_coefficient",
+      " gas_permeability_coefficient",
+      " gas_solubility_coefficient",
+      " water_absorption",
+      " water_vapor_transmission"
     ]
   },
   {
-    "id": "0eeaaf7c-7735-4bf0-abe8-165d8bed0582",
-    "name": "schema1",
+    "id": "Temperature",
+    "name": "Temperature",
+    "description": "温度、反応温度、目標温度",
+    "synonyms": ["Reaction temperature", " Target temperature"],
+    "category": "",
+    "schema": "property",
+    "polyinfo": "0",
+    "wikidata_id": "Q11466"
+  },
+  {
+    "id": "Temperature_range",
+    "name": "Temperature range",
+    "description": "温度範囲 (e.g., below Tg)",
+    "synonyms": [],
+    "category": "",
+    "schema": "process_attribute",
+    "polyinfo": "1",
+    "properties": []
+  },
+  {
+    "id": "Heating_rate",
+    "name": "Heating rate",
+    "description": "加熱速度",
+    "synonyms": [],
+    "category": "",
+    "schema": "process_attribute",
+    "polyinfo": "1",
+    "properties": ["glass_transition_temperature", " melting_temperature"]
+  },
+  {
+    "id": "Cooling_rate",
+    "name": "Cooling rate",
+    "description": "冷却速度",
+    "synonyms": [],
+    "category": "",
+    "schema": "process_attribute",
+    "polyinfo": "1",
+    "properties": ["glass_transition_temperature", " melting_temperature"]
+  },
+  {
+    "id": "Heat_history",
+    "name": "Heat history",
+    "description": "熱履歴 (DSCの1st scan、2nd scan等)",
+    "synonyms": [],
+    "category": "",
+    "schema": "process_attribute",
+    "polyinfo": "1",
+    "properties": ["melting_temperature"]
+  },
+  {
+    "id": "Relative_humidity",
+    "name": "Relative humidity",
+    "description": "相対湿度",
+    "synonyms": ["RH"],
+    "category": "",
+    "schema": "property",
+    "polyinfo": "1",
+    "wikidata_id": "Q2499617"
+  },
+  {
+    "id": "Pressure",
+    "name": "Pressure",
+    "description": "圧力",
+    "synonyms": [],
+    "category": "",
+    "schema": "property",
+    "polyinfo": "1",
+    "wikidata_id": "Q39552"
+  },
+  {
+    "id": "Vacuum",
+    "name": "Vacuum",
+    "description": "真空かどうか (Gas or Vacuum)",
+    "synonyms": [],
+    "category": "",
+    "schema": "process_attribute",
+    "polyinfo": "1",
+    "properties": []
+  },
+  {
+    "id": "Atmosphere",
+    "name": "Atmosphere",
+    "description": "雰囲気",
+    "synonyms": [],
+    "category": "",
+    "schema": "process_attribute",
+    "polyinfo": "0",
+    "properties": []
+  },
+  {
+    "id": "Gasflow",
+    "name": "Gasflow",
+    "description": "気体流 (flowing N2, under N2 gasflow 等)",
+    "synonyms": [],
+    "category": "",
+    "schema": "process_attribute",
+    "polyinfo": "0",
+    "properties": []
+  },
+  {
+    "id": "Permeant",
+    "name": "Permeant",
+    "description": "透過ガス種 (低分子化合物)",
+    "synonyms": [],
+    "category": "",
+    "schema": "other_material",
+    "polyinfo": "1",
     "properties": [
-      {
-        "id": "09509a80-d4e2-4dc4-ac4b-7b27fd9c1626",
-        "name": "property1",
-        "type": "",
-        "color": "#ff8a80",
-        "sort": 1
-      },
-      {
-        "id": "f45a9941-256e-45be-b13f-65eb2224be89",
-        "name": "テキスト",
-        "type": "",
-        "color": "#ff8a80",
-        "sort": 2
-      }
+      "gas_diffusion_coefficient",
+      " gas_permeability_coefficient",
+      " gas_solubility_coefficient"
     ]
   },
   {
-    "id": "0eeaaf7c-7735-4bf0-abe8-165d8bed0582",
-    "name": "schema1",
-    "properties": [
-      {
-        "id": "09509a80-d4e2-4dc4-ac4b-7b27fd9c1626",
-        "name": "property1",
-        "type": "",
-        "color": "#ff8a80",
-        "sort": 1
-      },
-      {
-        "id": "f45a9941-256e-45be-b13f-65eb2224be89",
-        "name": "テキスト",
-        "type": "",
-        "color": "#ff8a80",
-        "sort": 2
-      }
-    ]
+    "id": "Solvent",
+    "name": "Solvent",
+    "description": "溶媒",
+    "synonyms": [],
+    "category": "",
+    "schema": "other_material",
+    "polyinfo": "0",
+    "properties": []
+  },
+  {
+    "id": "pH",
+    "name": "pH",
+    "description": "pH",
+    "synonyms": [],
+    "category": "",
+    "schema": "property",
+    "polyinfo": "0",
+    "wikidata_id": "Q40936"
+  },
+  {
+    "id": "Eluent",
+    "name": "Eluent",
+    "description": "溶離液",
+    "synonyms": [],
+    "category": "",
+    "schema": "other_material",
+    "polyinfo": "0",
+    "properties": []
+  },
+  {
+    "id": "Gel",
+    "name": "Gel",
+    "description": "ゲル",
+    "synonyms": [],
+    "category": "",
+    "schema": "other_material",
+    "polyinfo": "0",
+    "properties": []
+  },
+  {
+    "id": "Immersed_in_water?",
+    "name": "Immersed in water?",
+    "description": "水への浸せきを行うかどうか",
+    "synonyms": [],
+    "category": "",
+    "schema": "process_attribute",
+    "polyinfo": "1",
+    "properties": ["water_absorption", " water_vapor_transmission"]
+  },
+  {
+    "id": "Wavelength",
+    "name": "Wavelength",
+    "description": "波長",
+    "synonyms": [],
+    "category": "",
+    "schema": "property",
+    "polyinfo": "1",
+    "wikidata_id": "Q41364"
+  },
+  {
+    "id": "Oscillation_frequency",
+    "name": "Oscillation frequency",
+    "description": "振動荷重の時間周波数",
+    "synonyms": [],
+    "category": "",
+    "schema": "property",
+    "polyinfo": "1",
+    "wikidata_id": ""
+  },
+  {
+    "id": "Voltage",
+    "name": "Voltage",
+    "description": "電圧",
+    "synonyms": [],
+    "category": "",
+    "schema": "property",
+    "polyinfo": "1",
+    "wikidata_id": "Q25428"
+  },
+  {
+    "id": "Speed_of_rotation",
+    "name": "Speed of rotation",
+    "description": "回転速度",
+    "synonyms": [],
+    "category": "",
+    "schema": "process_attribute",
+    "polyinfo": "0",
+    "properties": []
+  },
+  {
+    "id": "Testing_force",
+    "name": "Testing force",
+    "description": "印加された力",
+    "synonyms": [],
+    "category": "",
+    "schema": "process_attribute",
+    "polyinfo": "0",
+    "properties": []
+  },
+  {
+    "id": "Shear_rate",
+    "name": "Shear rate",
+    "description": "せん断レート",
+    "synonyms": [],
+    "category": "",
+    "schema": "process_attribute",
+    "polyinfo": "0",
+    "properties": []
   }
 ]
