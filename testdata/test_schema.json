@@ -1,12 +1,5 @@
 [
   {
-    "id": "NO_UNIT",
-    "name": "NO UNIT",
-    "property_ids": [],
-    "synonyms": [],
-    "schema": "unit"
-  },
-  {
     "id": "%",
     "name": "%",
     "property_ids": [],
